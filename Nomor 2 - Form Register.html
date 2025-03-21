@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Akun</title>
+</head>
+<body>
+    <h1>Registrasi Akun</h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend><b>Formulir Registrasi</b></legend>
+            
+            <p>
+                <label>Nama:</label>
+                <input type="text" name="nama" placeholder="Masukkan nama..." required />
+            </p>
+            
+            <p>
+                <label>NIM:</label>
+                <input type="text" name="nim" placeholder="Masukkan NIM..." required />
+            </p>
+            
+            <p>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Masukkan email..." required />
+            </p>
+            
+            <p>
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" name="jenis_kelamin" value="" hidden checked />
+                <input type="radio" name="jenis_kelamin" value="Laki-Laki" /> Laki-Laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan
+            </p>
+            
+            <p>
+                <label>Agama:</label>
+                <select name="agama" required>
+                    <option value="" hidden>-- Pilih Agama --</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </p>
+            
+            <p>
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="Masukkan password..." required />
+            </p>
+            
+            <p>
+                <label>Konfirmasi password:</label>
+                <input type="password" name="konfirmasi_password" placeholder="Konfirmasi password..." required />
+            </p>
+            
+            <p>
+                <input type="submit" value="Daftarkan Diri" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+<!-- Rafi Athaya Rahman -->
+<!-- 202332149 -->
+<!-- Kelas C -->
+<!-- Sistem Informasi -->
